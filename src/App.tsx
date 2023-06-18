@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react"
+import { HangManWord } from "./HangManWord"
 import { HangmanDrawing } from "./HangmanDrawing"
 import { Keyboard } from "./Keyboard"
 import words from "./wordsList.json"
-import { HangManWord } from "./HangmanWord"
 
 function getWord() {
   return words[Math.floor(Math.random() * words.length)]
